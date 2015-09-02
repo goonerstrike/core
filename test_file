@@ -1,0 +1,6 @@
+class core::test_file {
+  file '/opt/tester':
+    path => $core::params::file_path,
+    ensure => present,
+  }
+}
